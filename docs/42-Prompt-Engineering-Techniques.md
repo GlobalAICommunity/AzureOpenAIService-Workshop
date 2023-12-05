@@ -9,11 +9,11 @@ As we've seen, natural language Generative AI models can produce unexpected or u
 
 In this section we will see how adding system messages, one-shots examples and conversation history provide grounding for a model and these are not the only techniques. Prompt Engineering is a complex and rapidly-evolving practice. [This article](https://learn.microsoft.com/azure/cognitive-services/openai/concepts/advanced-prompt-engineering) on Microsoft Learn provides the latest guidance.
 
-## Conversation history:
+## Conversation history
 
 Consumer conversational AI services like ChatGPT and Bing Chat use a trick to make the AI agent seem to remember the context of the conversation. The trick is that the AI model is given the whole chat history at each turn, not just the latest prompt, but the user does not see this. An AI model cannot learn and has no memory of previous interactions if the user leaves and comes back but the application is using prompt engineering to add this 'memory'
 
-### Example:
+### Example
 
 In the "Chat Session" pane, enter the text below:
 
@@ -30,13 +30,13 @@ Click **Send**. The AI agent will respond with something like:
 Click **Send**. The agent will respond with an answer involving isotopes of hydrogen: deuterium (one neutron) and tritium (two neutrons). Even though your second prompt did not mention hydrogen or neutrons, the response used the context of the chat to provide a more useful answer.
 The key here is sending previous prompts back into the next request provides the model with more context and grounding and therefore providing a more valuable answer to the end user.
 
-## System message:
+## System message
 
 Use the system message to prime the model with context, instructions, or other information relevant to the use case.
 
 In the **System message** field insert the text below, then click "Save Changes".
 
-```
+``` english
 I am a hiking enthusiast named Forest who helps people discover fun hikes in their area. I am upbeat and friendly. I introduce myself when first saying hello. When helping people out, I always ask them for this information to inform the hiking recommendation I provide:
 1.Where they are located
 2.What hiking intensity they are looking for
@@ -49,7 +49,7 @@ The text provided in the System Message is handled specially by the model, and i
 
 In the Chat Session, enter this text with the personal details of your choice:
 
-```
+```english
 Hi, I'm <your name>. I'm looking for a hike near <my city>. I want to take my dog with me.
 ```
 
