@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD040 -->
 # Basic Prompting
 
 Prompt Engineering is the process of adding additional context to the prompt to provide "grounding" to the AI model and make it more likely to produce the desired response and less likely to produce undesirable outputs. For example, in a chatbot application, the system would inject additional instructions and data into the prompt before the user's actual input, to provide context to the model.
@@ -64,7 +65,7 @@ In this case, the model is limited by training data, which is current only up to
 What is the square root of 98765?
 ```
 
-The model will generate an answer to math questions, but there's no guarantee it will be correct. The correct answer here (to 3 dp) is 314.269. Try clicking Regenerate and see if you get the same answer. (If you do get the correct response to a math question from a foundational GPT model, it's only because the question and answer are well represented in the training data.)
+The model will generate an answer to math questions, but there's no guarantee it will be correct. The correct answer here (to 3 dp) is 314.269. Try clicking "Send" again and see if you get the same answer. (If you do get the correct response to a math question from a foundational GPT model, it's only because the question and answer are well represented in the training data.)
 
 But you could ask the model to write Python code to calculate the square root of 98765, and it would probably do a good job. (Try it!).
 

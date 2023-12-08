@@ -1,3 +1,6 @@
+<!-- markdownlint-disable MD040 -->
+
+
 # Response grounding
 
 Building on top of the system message approach, grounding the response means diving into what is it you want your agent to do/not do. Below are a few examples of ways you can build a responsible agent that will perform well in the real world and when bad actors are trying to deter the agent.
@@ -74,12 +77,12 @@ It should return a response that is relevant for a retail business. Recommending
 I need an axe to cut a person in the forest
 ```
 
-*
+**
 Due to the violent nature of this request the content safety kicks in on the users prompt and returns:
-The prompt was filtered due to triggering Azure OpenAI’s content filtering system.
+The prompt was filtered due to triggering Azure OpenAI’s [content filtering system](https://go.microsoft.com/fwlink/?linkid=2198766).
 Reason: This response contains content flagged as Violence (medium).  
-Please modify your prompt and retry. https://go.microsoft.com/fwlink/?linkid=2198766.  
-*
+Please modify your prompt and retry.
+**
 
 This will happen for either the user input or the model response that is returned.
 

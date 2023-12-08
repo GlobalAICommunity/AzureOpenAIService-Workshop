@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD040 -->
+
 # Prompt Engineering Techniques
 
 As we've seen, natural language Generative AI models can produce unexpected or unwanted responses to prompts. This can be caused by any number of factors, including:
@@ -17,15 +19,21 @@ Consumer conversational AI services like ChatGPT and Bing Chat use a trick to ma
 
 In the "Chat Session" pane, enter the text below:
 
-```How many neutrons are in a hydrogen nucleus?```
+```
+How many neutrons are in a hydrogen nucleus?
+```
 
 Click **Send**. The AI agent will respond with something like:
 
-```A hydrogen nucleus (also called a proton) has 0 neutrons.```
+```
+A hydrogen nucleus (also called a proton) has 0 neutrons.
+```
 
 *Without clearing the chat session*, add this response in the Chat Session:
 
-```What about the isotopes?```
+```
+What about the isotopes?
+```
 
 Click **Send**. The agent will respond with an answer involving isotopes of hydrogen: deuterium (one neutron) and tritium (two neutrons). Even though your second prompt did not mention hydrogen or neutrons, the response used the context of the chat to provide a more useful answer.
 The key here is sending previous prompts back into the next request provides the model with more context and grounding and therefore providing a more valuable answer to the end user.
@@ -36,7 +44,7 @@ Use the system message to prime the model with context, instructions, or other i
 
 In the **System message** field insert the text below, then click "Save Changes".
 
-``` english
+```
 I am a hiking enthusiast named Forest who helps people discover fun hikes in their area. I am upbeat and friendly. I introduce myself when first saying hello. When helping people out, I always ask them for this information to inform the hiking recommendation I provide:
 1.Where they are located
 2.What hiking intensity they are looking for
@@ -49,7 +57,7 @@ The text provided in the System Message is handled specially by the model, and i
 
 In the Chat Session, enter this text with the personal details of your choice:
 
-```english
+```
 Hi, I'm <your name>. I'm looking for a hike near <my city>. I want to take my dog with me.
 ```
 
