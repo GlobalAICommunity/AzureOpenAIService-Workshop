@@ -1,0 +1,24 @@
+{
+  "id": "Part-1-labs/Conversation-history",
+  "title": "Conversation history",
+  "description": "Consumer conversational AI services like ChatGPT and Bing Chat use a trick to make the AI agent seem to remember the context of the conversation. The trick is that the foundation model is given the whole chat history at each turn, not just the latest prompt, but the user does not see this. An AI model cannot learn and has no memory of previous interactions if the user leaves and comes back but the application is using prompt engineering to add this 'memory'",
+  "source": "@site/docs/04-Part-1-labs/2-Conversation-history.md",
+  "sourceDirName": "04-Part-1-labs",
+  "slug": "/Part-1-labs/Conversation-history",
+  "permalink": "/Part-1-labs/Conversation-history",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basic Prompting",
+    "permalink": "/Part-1-labs/Basic-Prompting"
+  },
+  "next": {
+    "title": "Prompt engineering techniques",
+    "permalink": "/Part-1-labs/Prompt-engineering-techniques"
+  }
+}

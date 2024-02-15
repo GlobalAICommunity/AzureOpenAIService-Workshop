@@ -1,0 +1,117 @@
+{
+  "/__docusaurus/debug/-0c4": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---workshop-interact-with-open-ai-models-docusaurus-debug-d-63-78e"
+    }
+  },
+  "/__docusaurus/debug/config/-254": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---workshop-interact-with-open-ai-models-docusaurus-debug-d-63-78e"
+    }
+  },
+  "/__docusaurus/debug/content/-091": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---workshop-interact-with-open-ai-models-docusaurus-debug-d-63-78e"
+    },
+    "allContent": "allContent---workshop-interact-with-open-ai-models-docusaurus-debug-content-246-957"
+  },
+  "/__docusaurus/debug/globalData/-540": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---workshop-interact-with-open-ai-models-docusaurus-debug-d-63-78e"
+    }
+  },
+  "/__docusaurus/debug/metadata/-3ff": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---workshop-interact-with-open-ai-models-docusaurus-debug-d-63-78e"
+    }
+  },
+  "/__docusaurus/debug/registry/-044": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---workshop-interact-with-open-ai-models-docusaurus-debug-d-63-78e"
+    }
+  },
+  "/__docusaurus/debug/routes/-3fa": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---workshop-interact-with-open-ai-models-docusaurus-debug-d-63-78e"
+    }
+  },
+  "/markdown-page/-d0d": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---workshop-interact-with-open-ai-models-markdown-page-7-af-dfb"
+    },
+    "content": "content---workshop-interact-with-open-ai-models-markdown-page-393-78e"
+  },
+  "/-01d": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---workshop-interact-with-open-ai-models-c-6-e-150"
+    }
+  },
+  "/-9a3": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---workshop-interact-with-open-ai-models-935-a61"
+  },
+  "/-b89": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/ai-models/-90a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-ai-models-3-a-6-901"
+  },
+  "/at-home/-c59": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-at-home-ebf-782"
+  },
+  "/llms/-a1f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-llms-3-ba-6c4"
+  },
+  "/Part-1-labs/Basic-Prompting/-4ea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-part-1-labs-basic-prompting-e-9-c-b3a"
+  },
+  "/Part-1-labs/Conversation-history/-270": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-part-1-labs-conversation-history-733-a37"
+  },
+  "/Part-1-labs/Prompt-engineering-techniques/-b9f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-part-1-labs-prompt-engineering-techniques-140-8cd"
+  },
+  "/Part-2-labs/Add-Knowledge/-7a5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-part-2-labs-add-knowledge-90-c-9ac"
+  },
+  "/Part-2-labs/Function-Calling/-57b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-part-2-labs-function-calling-89-c-055"
+  },
+  "/Part-2-labs/System-Message/-129": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-part-2-labs-system-message-0-b-5-69d"
+  },
+  "/setup/-e1d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-setup-9-f-0-3c5"
+  },
+  "/summary/-0c6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-summary-7-cc-80a"
+  },
+  "/tokenization/-1ed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-tokenization-1-b-8-2bd"
+  },
+  "/-a80": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---workshop-interact-with-open-ai-models-bea-90e"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Welcome",
+  "title": "Welcome",
+  "description": "This is a 75-minute workshop that will give you a hands-on introduction to the core concepts and best practices for interacting with OpenAI models.",
+  "source": "@site/docs/00-Welcome.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "Welcome",
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Get started",
+    "permalink": "/setup"
+  }
+}

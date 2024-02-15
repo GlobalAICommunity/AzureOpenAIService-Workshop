@@ -1,0 +1,454 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/workspaces/AzureOpenAIService-Workshop/sidebars.js",
+          "contentPath": "/workspaces/AzureOpenAIService-Workshop/docs",
+          "contentPathLocalized": "/workspaces/AzureOpenAIService-Workshop/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "concepts/At-home",
+              "title": "At home",
+              "description": "At home",
+              "source": "@site/docs/06-concepts/3-At-home.md",
+              "sourceDirName": "06-concepts",
+              "slug": "/at-home",
+              "permalink": "/at-home",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "At home",
+                "slug": "/at-home"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Large Language Model (LLM)",
+                "permalink": "/llms"
+              },
+              "next": {
+                "title": "Tokenization",
+                "permalink": "/tokenization"
+              }
+            },
+            {
+              "id": "concepts/Explore-Models",
+              "title": "AI Models & Deployments",
+              "description": "What is an AI Model?",
+              "source": "@site/docs/06-concepts/1-Explore-Models.md",
+              "sourceDirName": "06-concepts",
+              "slug": "/ai-models",
+              "permalink": "/ai-models",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "AI Models & Deployments",
+                "slug": "/ai-models"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Function Calling",
+                "permalink": "/Part-2-labs/Function-Calling"
+              },
+              "next": {
+                "title": "Large Language Model (LLM)",
+                "permalink": "/llms"
+              }
+            },
+            {
+              "id": "concepts/Understand-LLMs",
+              "title": "Large Language Model (LLM)",
+              "description": "A large language model (LLM) is a type of AI that can process and produce natural language text. It learns from a massive amount of text data such as books, articles, and web pages to discover patterns and rules of language from them.",
+              "source": "@site/docs/06-concepts/2-Understand-LLMs.md",
+              "sourceDirName": "06-concepts",
+              "slug": "/llms",
+              "permalink": "/llms",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Large Language Model (LLM)",
+                "slug": "/llms"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "AI Models & Deployments",
+                "permalink": "/ai-models"
+              },
+              "next": {
+                "title": "At home",
+                "permalink": "/at-home"
+              }
+            },
+            {
+              "id": "concepts/Understand-Tokens",
+              "title": "Tokenization",
+              "description": "We've mentioned \"tokens\" a few times in previous lessons, but we didn't explain what those were and why they matter. Let's discuss that now.",
+              "source": "@site/docs/06-concepts/3-Understand-Tokens.md",
+              "sourceDirName": "06-concepts",
+              "slug": "/tokenization",
+              "permalink": "/tokenization",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Tokenization",
+                "slug": "/tokenization"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "At home",
+                "permalink": "/at-home"
+              },
+              "next": {
+                "title": "Summary",
+                "permalink": "/summary"
+              }
+            },
+            {
+              "id": "Get-Started",
+              "title": "Get started",
+              "description": "- Use your own laptop.",
+              "source": "@site/docs/01-Get-Started.md",
+              "sourceDirName": ".",
+              "slug": "/setup",
+              "permalink": "/setup",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Get started",
+                "slug": "/setup"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Welcome",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "Basic Prompting",
+                "permalink": "/Part-1-labs/Basic-Prompting"
+              }
+            },
+            {
+              "id": "Part-1-labs/Basic-Prompting",
+              "title": "Basic Prompting",
+              "description": "Prompt engineering is a concept in Natural Language Processing (NLP) that involves embedding descriptions of tasks in input to prompt the model to output the desired results.",
+              "source": "@site/docs/04-Part-1-labs/1-Basic-Prompting.md",
+              "sourceDirName": "04-Part-1-labs",
+              "slug": "/Part-1-labs/Basic-Prompting",
+              "permalink": "/Part-1-labs/Basic-Prompting",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Get started",
+                "permalink": "/setup"
+              },
+              "next": {
+                "title": "Conversation history",
+                "permalink": "/Part-1-labs/Conversation-history"
+              }
+            },
+            {
+              "id": "Part-1-labs/Conversation-history",
+              "title": "Conversation history",
+              "description": "Consumer conversational AI services like ChatGPT and Bing Chat use a trick to make the AI agent seem to remember the context of the conversation. The trick is that the foundation model is given the whole chat history at each turn, not just the latest prompt, but the user does not see this. An AI model cannot learn and has no memory of previous interactions if the user leaves and comes back but the application is using prompt engineering to add this 'memory'",
+              "source": "@site/docs/04-Part-1-labs/2-Conversation-history.md",
+              "sourceDirName": "04-Part-1-labs",
+              "slug": "/Part-1-labs/Conversation-history",
+              "permalink": "/Part-1-labs/Conversation-history",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Basic Prompting",
+                "permalink": "/Part-1-labs/Basic-Prompting"
+              },
+              "next": {
+                "title": "Prompt engineering techniques",
+                "permalink": "/Part-1-labs/Prompt-engineering-techniques"
+              }
+            },
+            {
+              "id": "Part-1-labs/Prompt-engineering-techniques",
+              "title": "Prompt engineering techniques",
+              "description": "OpenAI models like GPT-3 do not learn or adapt during user interactions. They generate responses based on pre-training with a large dataset and do not update their knowledge from individual conversations. Any improvements or updates to the model's capabilities are made through a controlled retraining process by OpenAI, not through real-time learning.",
+              "source": "@site/docs/04-Part-1-labs/4-Prompt-engineering-techniques.md",
+              "sourceDirName": "04-Part-1-labs",
+              "slug": "/Part-1-labs/Prompt-engineering-techniques",
+              "permalink": "/Part-1-labs/Prompt-engineering-techniques",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Conversation history",
+                "permalink": "/Part-1-labs/Conversation-history"
+              },
+              "next": {
+                "title": "System Message",
+                "permalink": "/Part-2-labs/System-Message"
+              }
+            },
+            {
+              "id": "Part-2-labs/Add-Knowledge",
+              "title": "Add knowledge",
+              "description": "Retrieval-Augmented Generation (RAG) is an AI technique that retrieves relevant information from a database and then uses it to help generate more informed and contextually accurate text responses.",
+              "source": "@site/docs/05-Part-2-labs/5-Add-Knowledge.md",
+              "sourceDirName": "05-Part-2-labs",
+              "slug": "/Part-2-labs/Add-Knowledge",
+              "permalink": "/Part-2-labs/Add-Knowledge",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "System Message",
+                "permalink": "/Part-2-labs/System-Message"
+              },
+              "next": {
+                "title": "Function Calling",
+                "permalink": "/Part-2-labs/Function-Calling"
+              }
+            },
+            {
+              "id": "Part-2-labs/Function-Calling",
+              "title": "Function Calling",
+              "description": "GPT-3.5 and GPT-4 models can take user-defined functions as input and generate structured output.",
+              "source": "@site/docs/05-Part-2-labs/6-Function-Calling.md",
+              "sourceDirName": "05-Part-2-labs",
+              "slug": "/Part-2-labs/Function-Calling",
+              "permalink": "/Part-2-labs/Function-Calling",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Add knowledge",
+                "permalink": "/Part-2-labs/Add-Knowledge"
+              },
+              "next": {
+                "title": "AI Models & Deployments",
+                "permalink": "/ai-models"
+              }
+            },
+            {
+              "id": "Part-2-labs/System-Message",
+              "title": "System Message",
+              "description": "The system message is used to communicate instructions or provide context to the model at the beginning of a conversation.",
+              "source": "@site/docs/05-Part-2-labs/3-System-Message.md",
+              "sourceDirName": "05-Part-2-labs",
+              "slug": "/Part-2-labs/System-Message",
+              "permalink": "/Part-2-labs/System-Message",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Prompt engineering techniques",
+                "permalink": "/Part-1-labs/Prompt-engineering-techniques"
+              },
+              "next": {
+                "title": "Add knowledge",
+                "permalink": "/Part-2-labs/Add-Knowledge"
+              }
+            },
+            {
+              "id": "Summary",
+              "title": "Summary",
+              "description": "We hope that in the last hour, you've learned what natural language generative AI models are and how they work and understand the power of prompt-engineering.",
+              "source": "@site/docs/100-Summary.md",
+              "sourceDirName": ".",
+              "slug": "/summary",
+              "permalink": "/summary",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 100,
+              "frontMatter": {
+                "title": "Summary",
+                "slug": "/summary"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tokenization",
+                "permalink": "/tokenization"
+              }
+            },
+            {
+              "id": "Welcome",
+              "title": "Welcome",
+              "description": "This is a 75-minute workshop that will give you a hands-on introduction to the core concepts and best practices for interacting with OpenAI models.",
+              "source": "@site/docs/00-Welcome.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "title": "Welcome",
+                "slug": "/"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Get started",
+                "permalink": "/setup"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "Welcome"
+              },
+              {
+                "type": "doc",
+                "id": "Get-Started"
+              },
+              {
+                "type": "category",
+                "label": " Part 1 - Labs",
+                "collapsible": true,
+                "collapsed": false,
+                "className": "red",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Part-1-labs/Basic-Prompting"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Part-1-labs/Conversation-history"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Part-1-labs/Prompt-engineering-techniques"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": " Part 2 - Labs",
+                "collapsible": true,
+                "collapsed": false,
+                "className": "red",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Part-2-labs/System-Message"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Part-2-labs/Add-Knowledge"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Part-2-labs/Function-Calling"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Concepts & resources",
+                "collapsible": true,
+                "collapsed": true,
+                "className": "red",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "concepts/Explore-Models"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/Understand-LLMs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/At-home"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/Understand-Tokens"
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "id": "Summary"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        },
+        "unlisted": false
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-plugin-ideal-image": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

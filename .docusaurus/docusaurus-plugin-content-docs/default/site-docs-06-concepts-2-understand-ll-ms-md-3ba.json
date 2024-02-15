@@ -1,0 +1,27 @@
+{
+  "id": "concepts/Understand-LLMs",
+  "title": "Large Language Model (LLM)",
+  "description": "A large language model (LLM) is a type of AI that can process and produce natural language text. It learns from a massive amount of text data such as books, articles, and web pages to discover patterns and rules of language from them.",
+  "source": "@site/docs/06-concepts/2-Understand-LLMs.md",
+  "sourceDirName": "06-concepts",
+  "slug": "/llms",
+  "permalink": "/llms",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Large Language Model (LLM)",
+    "slug": "/llms"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Models & Deployments",
+    "permalink": "/ai-models"
+  },
+  "next": {
+    "title": "At home",
+    "permalink": "/at-home"
+  }
+}

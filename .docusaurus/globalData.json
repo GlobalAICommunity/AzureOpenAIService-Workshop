@@ -1,0 +1,93 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "Welcome",
+          "docs": [
+            {
+              "id": "concepts/At-home",
+              "path": "/at-home",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/Explore-Models",
+              "path": "/ai-models",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/Understand-LLMs",
+              "path": "/llms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/Understand-Tokens",
+              "path": "/tokenization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Get-Started",
+              "path": "/setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Part-1-labs/Basic-Prompting",
+              "path": "/Part-1-labs/Basic-Prompting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Part-1-labs/Conversation-history",
+              "path": "/Part-1-labs/Conversation-history",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Part-1-labs/Prompt-engineering-techniques",
+              "path": "/Part-1-labs/Prompt-engineering-techniques",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Part-2-labs/Add-Knowledge",
+              "path": "/Part-2-labs/Add-Knowledge",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Part-2-labs/Function-Calling",
+              "path": "/Part-2-labs/Function-Calling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Part-2-labs/System-Message",
+              "path": "/Part-2-labs/System-Message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Summary",
+              "path": "/summary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Welcome",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "Welcome"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

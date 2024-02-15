@@ -1,0 +1,27 @@
+{
+  "id": "concepts/At-home",
+  "title": "At home",
+  "description": "At home",
+  "source": "@site/docs/06-concepts/3-At-home.md",
+  "sourceDirName": "06-concepts",
+  "slug": "/at-home",
+  "permalink": "/at-home",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "At home",
+    "slug": "/at-home"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Large Language Model (LLM)",
+    "permalink": "/llms"
+  },
+  "next": {
+    "title": "Tokenization",
+    "permalink": "/tokenization"
+  }
+}

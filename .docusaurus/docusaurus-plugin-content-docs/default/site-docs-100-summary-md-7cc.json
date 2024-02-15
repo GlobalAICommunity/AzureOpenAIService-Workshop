@@ -1,0 +1,23 @@
+{
+  "id": "Summary",
+  "title": "Summary",
+  "description": "We hope that in the last hour, you've learned what natural language generative AI models are and how they work and understand the power of prompt-engineering.",
+  "source": "@site/docs/100-Summary.md",
+  "sourceDirName": ".",
+  "slug": "/summary",
+  "permalink": "/summary",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 100,
+  "frontMatter": {
+    "title": "Summary",
+    "slug": "/summary"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tokenization",
+    "permalink": "/tokenization"
+  }
+}

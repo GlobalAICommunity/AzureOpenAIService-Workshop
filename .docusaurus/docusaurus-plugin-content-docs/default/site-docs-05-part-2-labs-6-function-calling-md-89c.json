@@ -1,0 +1,24 @@
+{
+  "id": "Part-2-labs/Function-Calling",
+  "title": "Function Calling",
+  "description": "GPT-3.5 and GPT-4 models can take user-defined functions as input and generate structured output.",
+  "source": "@site/docs/05-Part-2-labs/6-Function-Calling.md",
+  "sourceDirName": "05-Part-2-labs",
+  "slug": "/Part-2-labs/Function-Calling",
+  "permalink": "/Part-2-labs/Function-Calling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add knowledge",
+    "permalink": "/Part-2-labs/Add-Knowledge"
+  },
+  "next": {
+    "title": "AI Models & Deployments",
+    "permalink": "/ai-models"
+  }
+}

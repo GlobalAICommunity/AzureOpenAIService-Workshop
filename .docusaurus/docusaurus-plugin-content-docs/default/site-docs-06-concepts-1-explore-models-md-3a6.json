@@ -1,0 +1,27 @@
+{
+  "id": "concepts/Explore-Models",
+  "title": "AI Models & Deployments",
+  "description": "What is an AI Model?",
+  "source": "@site/docs/06-concepts/1-Explore-Models.md",
+  "sourceDirName": "06-concepts",
+  "slug": "/ai-models",
+  "permalink": "/ai-models",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "AI Models & Deployments",
+    "slug": "/ai-models"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Function Calling",
+    "permalink": "/Part-2-labs/Function-Calling"
+  },
+  "next": {
+    "title": "Large Language Model (LLM)",
+    "permalink": "/llms"
+  }
+}

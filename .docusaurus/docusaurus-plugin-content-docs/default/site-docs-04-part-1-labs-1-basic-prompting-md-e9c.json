@@ -1,0 +1,24 @@
+{
+  "id": "Part-1-labs/Basic-Prompting",
+  "title": "Basic Prompting",
+  "description": "Prompt engineering is a concept in Natural Language Processing (NLP) that involves embedding descriptions of tasks in input to prompt the model to output the desired results.",
+  "source": "@site/docs/04-Part-1-labs/1-Basic-Prompting.md",
+  "sourceDirName": "04-Part-1-labs",
+  "slug": "/Part-1-labs/Basic-Prompting",
+  "permalink": "/Part-1-labs/Basic-Prompting",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Get started",
+    "permalink": "/setup"
+  },
+  "next": {
+    "title": "Conversation history",
+    "permalink": "/Part-1-labs/Conversation-history"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "Part-2-labs/System-Message",
+  "title": "System Message",
+  "description": "The system message is used to communicate instructions or provide context to the model at the beginning of a conversation.",
+  "source": "@site/docs/05-Part-2-labs/3-System-Message.md",
+  "sourceDirName": "05-Part-2-labs",
+  "slug": "/Part-2-labs/System-Message",
+  "permalink": "/Part-2-labs/System-Message",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Prompt engineering techniques",
+    "permalink": "/Part-1-labs/Prompt-engineering-techniques"
+  },
+  "next": {
+    "title": "Add knowledge",
+    "permalink": "/Part-2-labs/Add-Knowledge"
+  }
+}

@@ -9,9 +9,9 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 
-  title: " Learn how to use OpenAI models (e.g. ChatGPT) using Azure OpenAI",
-  tagline: "A 60-minute workshop on OpenAI GPT Models",
-  url: "https://workshop.globalai.community/",
+  title: "Learn how to interact with OpenAI models",
+  tagline: "A 75-minute workshop on OpenAI GPT Models for Global AI Bootcamp 2024",
+  url: "https://workshop.globalai.community",
   baseUrl: "/",
 
   onBrokenLinks: "ignore",
@@ -38,7 +38,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/globalaicommunity/AzureOpenAIService-Workshop/tree/main",
+          //editUrl: "https://github.com/microsoft/Workshop-Interact-with-OpenAI-models/tree/main",
         },
         blog: false,
         theme: {
@@ -55,23 +55,22 @@ const config = {
       docs: {
         sidebar: {
           hideable: false,
-          autoCollapseCategories: true,
+          autoCollapseCategories: false
         },
       },
 
       navbar: {
-        title: "Explore the OpenAI GPT Models",
+        title: "Learn how to interact with OpenAI models",
         logo: {
-          alt: "My Site Logo",
-          src: "img/Azure-OpenAI-Services.svg",
-        },
-        items: [],
+          alt: "Workshop: Learn how to interact with OpenAI models",
+          src: "img/logo-1.png",
+        }
       },
 
       footer: {
         style: "dark",
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Explore the Azure OpenAI Service Workshop. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Learn how to interact with OpenAI models. Global AI Bootcamp.`,
       },
 
       prism: {
@@ -79,21 +78,17 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
 
-      /* Banner Announcements */
+      /* Banner Announcements
       announcementBar: {
-        id: 'Global AI Community Banner',
+        id: 'Microsoft AI Tour',
         content:
-          '<a href="https://github.com/GlobalAICommunity/AzureOpenAIService-Workshop"><b> Star this on GitHub</b></a> ▪️ <a href="hhttps://globalai.community/about/join-the-community/"><b>Join the Global AI Community</b></a> ',
+          '<a href="https://github.com/microsoft/Workshop-Interact-with-OpenAI-models"><b> Star this on GitHub</b></a> ▪️ <a href="https://aka.ms/aitour"><b>Microsoft AI Tour</b></a> ',
         backgroundColor: '#000000',
         textColor: '#ffffff',
         isCloseable: false,
       },
-
+ */
       /* Clarity Config */
-      clarity: {
-        ID: "gxhc6407pe", 
-      }
-
     }),
 
     plugins: [
@@ -106,11 +101,6 @@ const config = {
           steps: 4, // #images b/w min and max (inclusive)
           disableInDev: false,
         },
-      ],
-      [
-        'docusaurus-plugin-clarity',
-        {
-        }
       ],
     ],
 };

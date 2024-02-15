@@ -1,0 +1,27 @@
+{
+  "id": "Get-Started",
+  "title": "Get started",
+  "description": "- Use your own laptop.",
+  "source": "@site/docs/01-Get-Started.md",
+  "sourceDirName": ".",
+  "slug": "/setup",
+  "permalink": "/setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Get started",
+    "slug": "/setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Basic Prompting",
+    "permalink": "/Part-1-labs/Basic-Prompting"
+  }
+}

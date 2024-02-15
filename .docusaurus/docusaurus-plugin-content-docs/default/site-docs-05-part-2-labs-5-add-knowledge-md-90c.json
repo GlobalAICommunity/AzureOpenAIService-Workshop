@@ -1,0 +1,24 @@
+{
+  "id": "Part-2-labs/Add-Knowledge",
+  "title": "Add knowledge",
+  "description": "Retrieval-Augmented Generation (RAG) is an AI technique that retrieves relevant information from a database and then uses it to help generate more informed and contextually accurate text responses.",
+  "source": "@site/docs/05-Part-2-labs/5-Add-Knowledge.md",
+  "sourceDirName": "05-Part-2-labs",
+  "slug": "/Part-2-labs/Add-Knowledge",
+  "permalink": "/Part-2-labs/Add-Knowledge",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "System Message",
+    "permalink": "/Part-2-labs/System-Message"
+  },
+  "next": {
+    "title": "Function Calling",
+    "permalink": "/Part-2-labs/Function-Calling"
+  }
+}
