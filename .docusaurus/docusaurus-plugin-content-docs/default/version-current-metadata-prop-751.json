@@ -50,6 +50,20 @@
             "href": "/Part-1-labs/Prompt-engineering-techniques",
             "docId": "Part-1-labs/Prompt-engineering-techniques",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Image Generation",
+            "href": "/Part-1-labs/Image Generation",
+            "docId": "Part-1-labs/Image Generation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Multimodal",
+            "href": "/Part-1-labs/Multimodal",
+            "docId": "Part-1-labs/Multimodal",
+            "unlisted": false
           }
         ]
       },
@@ -170,6 +184,18 @@
       "id": "Part-1-labs/Conversation-history",
       "title": "Conversation history",
       "description": "Consumer conversational AI services like ChatGPT and Bing Chat use a trick to make the AI agent seem to remember the context of the conversation. The trick is that the foundation model is given the whole chat history at each turn, not just the latest prompt, but the user does not see this. An AI model cannot learn and has no memory of previous interactions if the user leaves and comes back but the application is using prompt engineering to add this 'memory'",
+      "sidebar": "tutorialSidebar"
+    },
+    "Part-1-labs/Image Generation": {
+      "id": "Part-1-labs/Image Generation",
+      "title": "Image Generation",
+      "description": "Welcome to part 2 of this workshop, where we will interact with a text-to-image model, DALL-E 3. Start by clicking on the Images playground, and selecting dall-e-3 from the deployments drop-down menu.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Part-1-labs/Multimodal": {
+      "id": "Part-1-labs/Multimodal",
+      "title": "Multimodal",
+      "description": "By now we have interacted with LLMs using a single modality: inputting text and receiving either text or images. However, multimodal interfaces are becoming increasingly popular, as they allow users to interact with models using multiple modalities, such as text, images, and speech, thus facilitating human-computer interactions. In this section, we will explore how to use multimodal interfaces to interact with GPT-4o.",
       "sidebar": "tutorialSidebar"
     },
     "Part-1-labs/Prompt-engineering-techniques": {

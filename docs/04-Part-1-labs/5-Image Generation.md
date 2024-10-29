@@ -4,8 +4,10 @@ Welcome to part 2 of this workshop, where we will interact with a text-to-image 
 
 ## Creating our first images
 
-> [!TIP]
-> What is DALL-E 3? DALL-E 3 is a neural network based model that can generate graphical data from **natural language input**. Put more simply, you can provide DALL-E 3 with a **description** and it can generate an appropriate image.
+:::tip What is DALL-E 3?
+DALL-E 3 is a neural network based model that can generate graphical data from **natural language input**. Put more simply, you can provide DALL-E 3 with a **description** and it can generate an appropriate image.
+:::
+
 
 Let's begin with generating an image by entering a basic prompt in the description box, then clicking on generate:
 

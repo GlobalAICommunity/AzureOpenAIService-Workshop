@@ -201,6 +201,54 @@
               }
             },
             {
+              "id": "Part-1-labs/Image Generation",
+              "title": "Image Generation",
+              "description": "Welcome to part 2 of this workshop, where we will interact with a text-to-image model, DALL-E 3. Start by clicking on the Images playground, and selecting dall-e-3 from the deployments drop-down menu.",
+              "source": "@site/docs/04-Part-1-labs/5-Image Generation.md",
+              "sourceDirName": "04-Part-1-labs",
+              "slug": "/Part-1-labs/Image Generation",
+              "permalink": "/Part-1-labs/Image Generation",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Prompt engineering techniques",
+                "permalink": "/Part-1-labs/Prompt-engineering-techniques"
+              },
+              "next": {
+                "title": "Multimodal",
+                "permalink": "/Part-1-labs/Multimodal"
+              }
+            },
+            {
+              "id": "Part-1-labs/Multimodal",
+              "title": "Multimodal",
+              "description": "By now we have interacted with LLMs using a single modality: inputting text and receiving either text or images. However, multimodal interfaces are becoming increasingly popular, as they allow users to interact with models using multiple modalities, such as text, images, and speech, thus facilitating human-computer interactions. In this section, we will explore how to use multimodal interfaces to interact with GPT-4o.",
+              "source": "@site/docs/04-Part-1-labs/6-Multimodal.md",
+              "sourceDirName": "04-Part-1-labs",
+              "slug": "/Part-1-labs/Multimodal",
+              "permalink": "/Part-1-labs/Multimodal",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Image Generation",
+                "permalink": "/Part-1-labs/Image Generation"
+              },
+              "next": {
+                "title": "System Message",
+                "permalink": "/Part-2-labs/System-Message"
+              }
+            },
+            {
               "id": "Part-1-labs/Prompt-engineering-techniques",
               "title": "Prompt engineering techniques",
               "description": "OpenAI models like GPT-3 do not learn or adapt during user interactions. They generate responses based on pre-training with a large dataset and do not update their knowledge from individual conversations. Any improvements or updates to the model's capabilities are made through a controlled retraining process by OpenAI, not through real-time learning.",
@@ -220,8 +268,8 @@
                 "permalink": "/Part-1-labs/Conversation-history"
               },
               "next": {
-                "title": "System Message",
-                "permalink": "/Part-2-labs/System-Message"
+                "title": "Image Generation",
+                "permalink": "/Part-1-labs/Image Generation"
               }
             },
             {
@@ -288,8 +336,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Prompt engineering techniques",
-                "permalink": "/Part-1-labs/Prompt-engineering-techniques"
+                "title": "Multimodal",
+                "permalink": "/Part-1-labs/Multimodal"
               },
               "next": {
                 "title": "Add knowledge",
@@ -372,6 +420,14 @@
                   {
                     "type": "doc",
                     "id": "Part-1-labs/Prompt-engineering-techniques"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Part-1-labs/Image Generation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Part-1-labs/Multimodal"
                   }
                 ]
               },

@@ -62,7 +62,7 @@ Natural language generative AI models have a number of limitations:
 Here are some example prompts that demonstrate these weaknesses:
 
 ```text title="Enter in the user prompt:"
-When did Queen Elizabeth II die?
+Which country won the most medals during the 2024 Summer Olympics?
 ```
 
 In this case, the model is limited by training data, which is current only up to June 2021.

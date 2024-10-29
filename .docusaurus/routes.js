@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '01d'),
+    component: ComponentCreator('/', '657'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '9a3'),
+        component: ComponentCreator('/', '49c'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'b89'),
+            component: ComponentCreator('/', '34b'),
             routes: [
               {
                 path: '/ai-models/',
@@ -81,6 +81,18 @@ export default [
               {
                 path: '/Part-1-labs/Conversation-history/',
                 component: ComponentCreator('/Part-1-labs/Conversation-history/', '270'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/Part-1-labs/Image Generation/',
+                component: ComponentCreator('/Part-1-labs/Image Generation/', '602'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/Part-1-labs/Multimodal/',
+                component: ComponentCreator('/Part-1-labs/Multimodal/', 'd4c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

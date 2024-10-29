@@ -46,6 +46,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Part-1-labs/Image Generation",
+              "path": "/Part-1-labs/Image Generation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Part-1-labs/Multimodal",
+              "path": "/Part-1-labs/Multimodal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Part-1-labs/Prompt-engineering-techniques",
               "path": "/Part-1-labs/Prompt-engineering-techniques",
               "sidebar": "tutorialSidebar"

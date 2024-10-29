@@ -1,0 +1,24 @@
+{
+  "id": "Part-3-labs/Image Generation",
+  "title": "Image Generation",
+  "description": "Welcome to part 2 of this workshop, where we will interact with a text-to-image model, DALL-E 3. Start by clicking on the Images playground, and selecting dall-e-3 from the deployments drop-down menu.",
+  "source": "@site/docs/06-Part-3-labs/5-Image Generation.md",
+  "sourceDirName": "06-Part-3-labs",
+  "slug": "/Part-3-labs/Image Generation",
+  "permalink": "/Part-3-labs/Image Generation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Multimodal",
+    "permalink": "/Part-3-labs/Multimodal"
+  },
+  "next": {
+    "title": "AI Models & Deployments",
+    "permalink": "/ai-models"
+  }
+}

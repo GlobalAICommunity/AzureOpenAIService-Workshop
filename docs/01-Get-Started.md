@@ -14,15 +14,14 @@ have the oppertunity to play with the prompts and learn how to interact with Ope
 
 ## Authenticate
 
-Your workshop instructor will provide you with an **event key** that you can use to get your personal **access key**
+Your workshop instructor will provide you with an **access key**.
 
-Setup is now a quick 3-step process. 
+Setup is now a quick 2-step process. 
 
-1. 🗝 | **Get your event-key** - from your workshop organizers at the start of the event.
-2. 📬 | **Get your access-key** - enter event key in [**this form**](https://globalai.community/workshop) to receive your access-key via email.
-3. 💬 | **Use the access-key** - visit the [**Global AI Playground**](https://playground.globalai.community), enter access-key at top right, and click `Authorize`. 
+1. 🗝 | **Get your access-key** - from your workshop organizers at the start of the event.
+3. 💬 | **Use the access-key** - visit the [**Azure AI Proxy Playground**](https://mango-bush-0a9e12903.5.azurestaticapps.net/), enter access-key at top right, and click `Authorize`. 
 
-![AI Tour Playground](./images/aitour-playground-chat.png) 
+![AI Tour Playground](./images/new/playground.png) 
 
 
 ## Explore
@@ -30,12 +29,12 @@ On successful login, the playground application should update to show a `Logout`
 
 Let's take a minute to familiarize ourselves with the different regions of this app.
 
-![](./images/aitour-playground-regions.png)
+![](./images/new/playground_2.png)
 
 - Region 1️⃣ | Once authorized, shows the event profile.
 - Region 2️⃣ | User prompt - used to enter text questions for AI
 - Region 3️⃣ | Conversation - interleaved user questions & assistant responses
-- Region 4️⃣ | Configuration - tunable parameters, execution stats
+- Region 4️⃣ | Configuration - model selection, tunable parameters, execution stats
 - Region 5️⃣ | System message - sets assistant persona, base context
 - Region 6️⃣ | Function calling - save custom functions to set context
 - Region 7️⃣ | Image generation - access the DALL-E model playground 

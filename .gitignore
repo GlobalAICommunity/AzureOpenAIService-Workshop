@@ -1,0 +1,9 @@
+node_modules/
+node_modules/.cache/webpack/client-development-en/0.pack
+node_modules/.cache/webpack/client-development-en/1.pack
+node_modules/.cache/webpack/client-development-en/2.pack
+node_modules/.cache/webpack/client-development-en/3.pack
+node_modules/.cache/webpack/client-development-en/4.pack
+node_modules/.cache/webpack/client-development-en/5.pack
+node_modules/.cache/webpack/client-development-en/index.pack
+node_modules/.cache/webpack/client-development-en/index.pack.old
